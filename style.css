@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  text-align: center;
+  top: 50%;
+  margin-top: 25%;
+}
+
+.color-changer {
+  border-style: none;
+  font-size: 60px;
+  font-family: "Poppins", sans-serif;
+  padding: 2px;
+  border-radius: 1%;
+  background: none;
+  outline: none;
+}
