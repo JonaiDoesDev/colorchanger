@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 const changeColor = document.querySelector(".color-changer");
 const bgColor = document.querySelector(".body");
 const Hex = [
@@ -30,4 +31,26 @@ function pickColor(e) {
     str += hexValue;
     bgColor.style.backgroundColor = str;
   }
+=======
+const colorChanger = document.querySelector(".color-changer");
+const bgColor = document.querySelector(".body");
+const diffColors = [
+  "red",
+  "blue",
+  "green",
+  "yellow",
+  "coral",
+  "purple",
+  "aliceblue",
+  "brown",
+  "cyan",
+  "goldenrod",
+];
+bgColor.style.backgroundColor = "antiquewhite";
+colorChanger.addEventListener("click", changeColor);
+
+function changeColor(e) {
+  bgColor.style.backgroundColor =
+    diffColors[Math.floor(Math.random() * diffColors.length)];
+>>>>>>> 1c378d378265e3e6990868f4f365a0847c34e811
 }
